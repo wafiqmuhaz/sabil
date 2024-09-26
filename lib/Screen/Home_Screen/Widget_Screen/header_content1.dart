@@ -93,7 +93,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                           height: 5.0,
                         ),
                         Text(
-                          "Sabilur ridho artimya jalan atau ikhtiar untuk mencapai keridhoan Alloh SWT melalui semua programnya mencakup seluruh alam khususnya di wilayah NKRI ( rahmatan lil alamiin )",
+                          "Sabilur ridho artinya jalan atau ikhtiar untuk mencapai keridhoan Alloh SWT melalui semua programnya mencakup seluruh alam khususnya di wilayah NKRI ( rahmatan lil alamiin )",
                           style: TextStyle(
                               fontFamily: "Sofia",
                               color: Colors.black,
@@ -231,7 +231,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                               height: 5.0,
                             ),
                             Text(
-                              "Sabilur ridho artimya jalan atau ikhtiar untuk mencapai keridhoan Alloh SWT melalui semua programnya mencakup seluruh alam khususnya di wilayah NKRI ( rahmatan lil alamiin )",
+                              "Sabilur ridho artinya jalan atau ikhtiar untuk mencapai keridhoan Alloh SWT melalui semua programnya mencakup seluruh alam khususnya di wilayah NKRI ( rahmatan lil alamiin )",
                               style: TextStyle(
                                   fontFamily: "Sofia",
                                   color: Colors.black,
