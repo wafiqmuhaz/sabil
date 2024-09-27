@@ -446,6 +446,7 @@ class _MobileNavbarT1State extends State<MobileNavbarT1> {
                   Text(
                     "SABILUR RIDHO AR RUHANDIAH",
                     style: TextStyle(
+                        overflow: TextOverflow.ellipsis,
                         fontFamily: "Sofia",
                         fontWeight: FontWeight.w700,
                         color: Colors.black87,
