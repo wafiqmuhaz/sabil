@@ -443,14 +443,17 @@ class _MobileNavbarT1State extends State<MobileNavbarT1> {
                   SizedBox(
                     width: 10.0,
                   ),
-                  Text(
-                    "SABILUR RIDHO AR RUHANDIAH",
-                    style: TextStyle(
-                        overflow: TextOverflow.ellipsis,
-                        fontFamily: "Sofia",
-                        fontWeight: FontWeight.w700,
-                        color: Colors.black87,
-                        fontSize: 18),
+                  Container(
+                    width: 200,
+                    child: Text(
+                      "SABILUR RIDHO AR RUHANDIAH",
+                      style: TextStyle(
+                          overflow: TextOverflow.ellipsis,
+                          fontFamily: "Sofia",
+                          fontWeight: FontWeight.w700,
+                          color: Colors.black87,
+                          fontSize: 18),
+                    ),
                   ),
                 ],
               ),
