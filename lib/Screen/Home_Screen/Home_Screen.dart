@@ -42,7 +42,7 @@ class _HomeScreenT1State extends State<HomeScreenT1> {
 
   _launchURL() async {
     final url = Uri.encodeFull(
-        'mailto:wafiqmuhaz@gmail.com?subject=News&body=New plugin');
+        'mailto:rohendiabdullah01@gmail.com?subject=News&body=New plugin');
     if (await canLaunch(url)) {
       await launch(url);
     } else {

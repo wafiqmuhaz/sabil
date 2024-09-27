@@ -6,6 +6,8 @@ import 'package:caris/Screen/Home_Screen/Widget_Screen/header_content1.dart';
 import 'package:flutter/material.dart';
 import 'package:caris/Style/Style.dart';
 
+import '../../Service_Screen/Service_Screen.dart';
+
 class HeaderContent2 extends StatefulWidget {
   HeaderContent2({Key? key}) : super(key: key);
 
@@ -171,6 +173,9 @@ class DesktopHeaderContent2 extends StatelessWidget {
                           InkWell(
                             onTap: () {
                               // _launchURL();
+                              Navigator.of(context).push(PageRouteBuilder(
+                                  pageBuilder: (_, __, ___) =>
+                                      new ServiceScreen()));
                             },
                             child: Container(
                               height: 40.0,
@@ -181,9 +186,9 @@ class DesktopHeaderContent2 extends StatelessWidget {
                                       BorderRadius.all(Radius.circular(20.0))),
                               child: Center(
                                 child: Text(
-                                  "YAITU",
+                                  "LIHAT SELENGKAPNYA",
                                   style: TextStyle(
-                                      color: colors.white,
+                                      color: Colors.black,
                                       fontFamily: "Sofia",
                                       fontWeight: FontWeight.w500,
                                       fontSize: 14),
@@ -204,8 +209,11 @@ class DesktopHeaderContent2 extends StatelessWidget {
                     children: [
                       Row(
                         children: [
-                          _card("assets/image/design.png", "Soliasisasi Program",
-                              "Kami mensosialisasikan berbagai macam program", context),
+                          _card(
+                              "assets/image/design.png",
+                              "Soliasisasi Program",
+                              "Kami mensosialisasikan berbagai macam program",
+                              context),
                           _card(
                               "assets/image/coding.png",
                               "Edukasi dakwah ekonomi syariah",
@@ -388,21 +396,28 @@ class MobileHeaderContent2 extends StatelessWidget {
                             SizedBox(
                               height: 30.0,
                             ),
-                            Container(
-                              height: 40.0,
-                              width: 155.0,
-                              decoration: BoxDecoration(
-                                  gradient: colors.primaryGradient,
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(20.0))),
-                              child: Center(
-                                child: Text(
-                                  "YAITU",
-                                  style: TextStyle(
-                                      color: colors.white,
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 14),
+                            InkWell(
+                              onTap: () {
+                                Navigator.of(context).push(PageRouteBuilder(
+                                    pageBuilder: (_, __, ___) =>
+                                        new ServiceScreen()));
+                              },
+                              child: Container(
+                                height: 40.0,
+                                width: 155.0,
+                                decoration: BoxDecoration(
+                                    gradient: colors.primaryGradient,
+                                    borderRadius: BorderRadius.all(
+                                        Radius.circular(20.0))),
+                                child: Center(
+                                  child: Text(
+                                    "LIHAT",
+                                    style: TextStyle(
+                                        color: colors.white,
+                                        fontFamily: "Sofia",
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 14),
+                                  ),
                                 ),
                               ),
                             )

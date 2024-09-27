@@ -50,16 +50,17 @@ class _PortofolioScreenState extends State<PortofolioScreen> {
                   NavbarT1(),
                   HeaderContent1T4(),
                   Content2T4(pixel: pixels),
-                  AnimatedOpacity(
-                    duration: Duration(milliseconds: 1000),
-                    opacity: pixels >= 4700 ? 1.0 : 0.0,
-                    child: AnimatedPadding(
-                      duration: Duration(milliseconds: 1000),
-                      padding:
-                          EdgeInsets.only(left: pixels >= 4700 ? 0.0 : 100),
-                      child: Content3T4(),
-                    ),
-                  ),
+                  // AnimatedOpacity(
+                  //   duration: Duration(milliseconds: 1000),
+                  //   opacity: pixels >= 4700 ? 1.0 : 0.0,
+                  //   child: AnimatedPadding(
+                  //     duration: Duration(milliseconds: 1000),
+                  //     padding:
+                  //         EdgeInsets.only(left: pixels >= 4700 ? 0.0 : 100),
+                  //     child: Content3T4(),
+                  //   ),
+                  // ),
+                  Content3T4(),
                   Content4T4(),
                 ],
               ),

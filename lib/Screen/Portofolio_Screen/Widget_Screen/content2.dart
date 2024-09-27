@@ -76,7 +76,7 @@ class DesktopHeaderContent2 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.only(top: 150.0),
                   child: Text(
-                    "Here's a show case of our recent projects",
+                    "Kami membutuhkan",
                     style: TextStyle(
                         fontFamily: "Sofia",
                         fontWeight: FontWeight.w900,
@@ -121,31 +121,31 @@ class DesktopHeaderContent2 extends StatelessWidget {
                                     height: 5.0,
                                   ),
                                   Text(
-                                    "FlyHigh Booking",
+                                    "buku takmir 50 eks",
                                     style: TextStyle(
                                         fontFamily: "Sofia",
                                         color: Colors.black,
                                         fontWeight: FontWeight.w900,
                                         fontSize: 42.0),
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        vertical: 20.0),
-                                    child: Text(
-                                      "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                      style: TextStyle(
-                                          fontSize: 18.0,
-                                          color: Colors.black38,
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w500),
-                                    ),
-                                  ),
+                                  // Padding(
+                                  //   padding: const EdgeInsets.symmetric(
+                                  //       vertical: 20.0),
+                                  //   child: Text(
+                                  //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                                  //     style: TextStyle(
+                                  //         fontSize: 18.0,
+                                  //         color: Colors.black38,
+                                  //         fontFamily: "Sofia",
+                                  //         fontWeight: FontWeight.w500),
+                                  //   ),
+                                  // ),
                                   SizedBox(
                                     height: 30.0,
                                   ),
                                   InkWell(
                                     onTap: () {
-                                      _launchURL();
+                                      // _launchURL();
                                     },
                                     child: Container(
                                       height: 40.0,
@@ -237,31 +237,31 @@ class DesktopHeaderContent2 extends StatelessWidget {
                                         height: 5.0,
                                       ),
                                       Text(
-                                        "Trevatel Hotel",
+                                        "Buku manajemen 50 eks",
                                         style: TextStyle(
                                             fontFamily: "Sofia",
                                             color: Colors.black,
                                             fontWeight: FontWeight.w900,
                                             fontSize: 42.0),
                                       ),
-                                      Padding(
-                                        padding: const EdgeInsets.symmetric(
-                                            vertical: 20.0),
-                                        child: Text(
-                                          "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                          style: TextStyle(
-                                              fontSize: 18.0,
-                                              color: Colors.black38,
-                                              fontFamily: "Sofia",
-                                              fontWeight: FontWeight.w500),
-                                        ),
-                                      ),
+                                      // Padding(
+                                      //   padding: const EdgeInsets.symmetric(
+                                      //       vertical: 20.0),
+                                      //   child: Text(
+                                      //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                                      //     style: TextStyle(
+                                      //         fontSize: 18.0,
+                                      //         color: Colors.black38,
+                                      //         fontFamily: "Sofia",
+                                      //         fontWeight: FontWeight.w500),
+                                      //   ),
+                                      // ),
                                       SizedBox(
                                         height: 30.0,
                                       ),
                                       InkWell(
                                         onTap: () {
-                                          _launchURL();
+                                          // _launchURL();
                                         },
                                         child: Container(
                                           height: 40.0,
@@ -374,31 +374,31 @@ class DesktopHeaderContent2 extends StatelessWidget {
                                     height: 5.0,
                                   ),
                                   Text(
-                                    "Treva Shop",
+                                    "Kalender Mulud 1 hal 50 eks",
                                     style: TextStyle(
                                         fontFamily: "Sofia",
                                         color: Colors.black,
                                         fontWeight: FontWeight.w900,
                                         fontSize: 42.0),
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        vertical: 20.0),
-                                    child: Text(
-                                      "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                      style: TextStyle(
-                                          fontSize: 18.0,
-                                          color: Colors.black38,
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w500),
-                                    ),
-                                  ),
+                                  // Padding(
+                                  //   padding: const EdgeInsets.symmetric(
+                                  //       vertical: 20.0),
+                                  //   child: Text(
+                                  //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                                  //     style: TextStyle(
+                                  //         fontSize: 18.0,
+                                  //         color: Colors.black38,
+                                  //         fontFamily: "Sofia",
+                                  //         fontWeight: FontWeight.w500),
+                                  //   ),
+                                  // ),
                                   SizedBox(
                                     height: 30.0,
                                   ),
                                   InkWell(
                                     onTap: () {
-                                      _launchURL();
+                                      // _launchURL();
                                     },
                                     child: Container(
                                       height: 40.0,
@@ -433,252 +433,388 @@ class DesktopHeaderContent2 extends StatelessWidget {
                 ),
               )),
           AnimatedOpacity(
+            duration: Duration(milliseconds: 1000),
+            opacity: pixel! >= 3100 ? 1.0 : 0.0,
+            child: AnimatedPadding(
               duration: Duration(milliseconds: 1000),
-              opacity: pixel! >= 3100 ? 1.0 : 0.0,
-              child: AnimatedPadding(
-                  duration: Duration(milliseconds: 1000),
-                  padding: EdgeInsets.only(left: pixel! >= 3100 ? 0.0 : 100),
-                  child: Stack(
+              padding: EdgeInsets.only(left: pixel! >= 3100 ? 0.0 : 100),
+              child: Stack(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(top: 0.0),
+                    child: Image.asset(
+                      "assets/image/item2.png",
+                      height: MediaQuery.of(context).size.height - 175,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(
+                        top: MediaQuery.of(context).size.height - 175,
+                        left: 450),
+                    child: Image.asset(
+                      "assets/image/item3.png",
+                      //height: MediaQuery.of(context).size.height - 175,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(top: 25, left: 550),
+                    child: Image.asset(
+                      "assets/image/item4.png",
+                      height: 120,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(top: 0.0),
-                        child: Image.asset(
-                          "assets/image/item2.png",
-                          height: MediaQuery.of(context).size.height - 175,
-                          fit: BoxFit.cover,
-                        ),
-                      ),
-                      Padding(
-                        padding: EdgeInsets.only(
-                            top: MediaQuery.of(context).size.height - 175,
-                            left: 450),
-                        child: Image.asset(
-                          "assets/image/item3.png",
-                          //height: MediaQuery.of(context).size.height - 175,
-                          fit: BoxFit.cover,
-                        ),
-                      ),
-                      Padding(
-                        padding: EdgeInsets.only(top: 25, left: 550),
-                        child: Image.asset(
-                          "assets/image/item4.png",
-                          height: 120,
-                          fit: BoxFit.cover,
-                        ),
-                      ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(left: 55.0),
-                            child: Container(
-                              width: _width / 2.2,
-                              child: Padding(
-                                padding: const EdgeInsets.only(
-                                    left: 5.0, right: 35.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: <Widget>[
-                                    SizedBox(
-                                      height: 5.0,
-                                    ),
-                                    Text(
-                                      "Podcorn Loxibel",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          color: Colors.black,
-                                          fontWeight: FontWeight.w900,
-                                          fontSize: 42.0),
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                          vertical: 20.0),
-                                      child: Text(
-                                        "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                        style: TextStyle(
-                                            fontSize: 18.0,
-                                            color: Colors.black38,
-                                            fontFamily: "Sofia",
-                                            fontWeight: FontWeight.w500),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      height: 30.0,
-                                    ),
-                                    InkWell(
-                                      onTap: () {
-                                        _launchURL();
-                                      },
-                                      child: Container(
-                                        height: 40.0,
-                                        width: 155.0,
-                                        decoration: BoxDecoration(
-                                            gradient: LinearGradient(colors: [
-                                              Color(0xFF1F2C63),
-                                              Color(0xFF6FB1E3),
-                                            ]),
-                                            borderRadius: BorderRadius.all(
-                                                Radius.circular(20.0))),
-                                        child: Center(
-                                          child: Text(
-                                            "KNOW MORE",
-                                            style: TextStyle(
-                                                color: colors.white,
-                                                fontFamily: "Sofia",
-                                                fontWeight: FontWeight.w500,
-                                                fontSize: 14),
-                                          ),
-                                        ),
-                                      ),
-                                    )
-                                  ],
+                        padding: const EdgeInsets.only(left: 55.0),
+                        child: Container(
+                          width: _width / 2.2,
+                          child: Padding(
+                            padding:
+                                const EdgeInsets.only(left: 5.0, right: 35.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                SizedBox(
+                                  height: 5.0,
                                 ),
-                              ),
+                                Text(
+                                  "Buletin Muslimat Miftahurridho 50 eks",
+                                  style: TextStyle(
+                                      fontFamily: "Sofia",
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.w900,
+                                      fontSize: 42.0),
+                                ),
+                                // Padding(
+                                //   padding: const EdgeInsets.symmetric(
+                                //       vertical: 20.0),
+                                //   child: Text(
+                                //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                                //     style: TextStyle(
+                                //         fontSize: 18.0,
+                                //         color: Colors.black38,
+                                //         fontFamily: "Sofia",
+                                //         fontWeight: FontWeight.w500),
+                                //   ),
+                                // ),
+                                SizedBox(
+                                  height: 30.0,
+                                ),
+                                InkWell(
+                                  onTap: () {
+                                    // _launchURL();
+                                  },
+                                  child: Container(
+                                    height: 40.0,
+                                    width: 155.0,
+                                    decoration: BoxDecoration(
+                                        gradient: LinearGradient(colors: [
+                                          Color(0xFF1F2C63),
+                                          Color(0xFF6FB1E3),
+                                        ]),
+                                        borderRadius: BorderRadius.all(
+                                            Radius.circular(20.0))),
+                                    child: Center(
+                                      child: Text(
+                                        "KNOW MORE",
+                                        style: TextStyle(
+                                            color: colors.white,
+                                            fontFamily: "Sofia",
+                                            fontWeight: FontWeight.w500,
+                                            fontSize: 14),
+                                      ),
+                                    ),
+                                  ),
+                                )
+                              ],
                             ),
                           ),
-                          Container(
-                            height: 580.0,
-                            width: _width / 2.2,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                    topRight: Radius.circular(20.0),
-                                    bottomRight: Radius.circular(20.0)),
-                                image: DecorationImage(
-                                    image:
-                                        AssetImage("assets/image/porto4.png"),
-                                    fit: BoxFit.fill)),
-                          ),
-                        ],
+                        ),
+                      ),
+                      Container(
+                        height: 580.0,
+                        width: _width / 2.2,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.only(
+                                topRight: Radius.circular(20.0),
+                                bottomRight: Radius.circular(20.0)),
+                            image: DecorationImage(
+                                image: AssetImage("assets/image/porto4.png"),
+                                fit: BoxFit.fill)),
                       ),
                     ],
-                  ))),
-          AnimatedOpacity(
-              duration: Duration(milliseconds: 1000),
-              opacity: pixel! >= 4100 ? 1.0 : 0.0,
-              child: AnimatedPadding(
-                duration: Duration(milliseconds: 1000),
-                padding: EdgeInsets.only(left: pixel! >= 4100 ? 0.0 : 100),
-                child: Stack(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(top: 178.0, left: 250.0),
-                      child: Image.asset("assets/image/item1.png"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 40.0),
-                      child: Image.asset(
-                        "assets/image/item2.png",
-                        height: MediaQuery.of(context).size.height - 175,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(
-                          top: MediaQuery.of(context).size.height - 175,
-                          left: 450),
-                      child: Image.asset(
-                        "assets/image/item3.png",
-                        //height: MediaQuery.of(context).size.height - 175,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(top: 25, left: 550),
-                      child: Image.asset(
-                        "assets/image/item4.png",
-                        height: 120,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Container(
-                          height: 580.0,
-                          width: _width / 2.2,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(
-                                  topRight: Radius.circular(20.0),
-                                  bottomRight: Radius.circular(20.0)),
-                              image: DecorationImage(
-                                  image: AssetImage("assets/image/porto5.png"),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left: 55.0),
-                          child: Container(
-                            height: MediaQuery.of(context).size.height - 75,
-                            width: _width / 2.2,
-                            child: Padding(
-                              padding:
-                                  const EdgeInsets.only(left: 5.0, right: 35.0),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: <Widget>[
-                                  SizedBox(
-                                    height: 5.0,
-                                  ),
-                                  Text(
-                                    "GreenDot Wokse",
-                                    style: TextStyle(
-                                        fontFamily: "Sofia",
-                                        color: Colors.black,
-                                        fontWeight: FontWeight.w900,
-                                        fontSize: 42.0),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        vertical: 20.0),
-                                    child: Text(
-                                      "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                      style: TextStyle(
-                                          fontSize: 18.0,
-                                          color: Colors.black38,
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w500),
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    height: 30.0,
-                                  ),
-                                  InkWell(
-                                    onTap: () {
-                                      _launchURL();
-                                    },
-                                    child: Container(
-                                      height: 40.0,
-                                      width: 155.0,
-                                      decoration: BoxDecoration(
-                                          gradient: LinearGradient(colors: [
-                                            Color(0xFF7AB77E),
-                                            Color(0xFFBEEBC6),
-                                          ]),
-                                          borderRadius: BorderRadius.all(
-                                              Radius.circular(20.0))),
-                                      child: Center(
-                                        child: Text(
-                                          "KNOW MORE",
-                                          style: TextStyle(
-                                              color: colors.white,
-                                              fontFamily: "Sofia",
-                                              fontWeight: FontWeight.w500,
-                                              fontSize: 14),
-                                        ),
-                                      ),
-                                    ),
-                                  )
-                                ],
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+          // AnimatedOpacity(
+          //     duration: Duration(milliseconds: 1000),
+          //     opacity: pixel! >= 4100 ? 1.0 : 0.0,
+          //     child: AnimatedPadding(
+          //       duration: Duration(milliseconds: 1000),
+          //       padding: EdgeInsets.only(left: pixel! >= 4100 ? 0.0 : 100),
+          //       child: Stack(
+          //         children: [
+          //           Padding(
+          //             padding: const EdgeInsets.only(top: 178.0, left: 250.0),
+          //             child: Image.asset("assets/image/item1.png"),
+          //           ),
+          //           Padding(
+          //             padding: const EdgeInsets.only(top: 40.0),
+          //             child: Image.asset(
+          //               "assets/image/item2.png",
+          //               height: MediaQuery.of(context).size.height - 175,
+          //               fit: BoxFit.cover,
+          //             ),
+          //           ),
+          //           Padding(
+          //             padding: EdgeInsets.only(
+          //                 top: MediaQuery.of(context).size.height - 175,
+          //                 left: 450),
+          //             child: Image.asset(
+          //               "assets/image/item3.png",
+          //               //height: MediaQuery.of(context).size.height - 175,
+          //               fit: BoxFit.cover,
+          //             ),
+          //           ),
+          //           Padding(
+          //             padding: EdgeInsets.only(top: 25, left: 550),
+          //             child: Image.asset(
+          //               "assets/image/item4.png",
+          //               height: 120,
+          //               fit: BoxFit.cover,
+          //             ),
+          //           ),
+          //           // Row(
+          //           //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //           //   children: [
+          //           //     Container(
+          //           //       height: 580.0,
+          //           //       width: _width / 2.2,
+          //           //       decoration: BoxDecoration(
+          //           //           borderRadius: BorderRadius.only(
+          //           //               topRight: Radius.circular(20.0),
+          //           //               bottomRight: Radius.circular(20.0)),
+          //           //           image: DecorationImage(
+          //           //               image: AssetImage("assets/image/porto5.png"),
+          //           //               fit: BoxFit.fill)),
+          //           //     ),
+          //           //     Padding(
+          //           //       padding: const EdgeInsets.only(left: 55.0),
+          //           //       child: Container(
+          //           //         height: MediaQuery.of(context).size.height - 75,
+          //           //         width: _width / 2.2,
+          //           //         child: Padding(
+          //           //           padding:
+          //           //               const EdgeInsets.only(left: 5.0, right: 35.0),
+          //           //           child: Column(
+          //           //             crossAxisAlignment: CrossAxisAlignment.start,
+          //           //             mainAxisAlignment: MainAxisAlignment.center,
+          //           //             children: <Widget>[
+          //           //               SizedBox(
+          //           //                 height: 5.0,
+          //           //               ),
+          //           //               Text(
+          //           //                 "GreenDot Wokse",
+          //           //                 style: TextStyle(
+          //           //                     fontFamily: "Sofia",
+          //           //                     color: Colors.black,
+          //           //                     fontWeight: FontWeight.w900,
+          //           //                     fontSize: 42.0),
+          //           //               ),
+          //           //               Padding(
+          //           //                 padding: const EdgeInsets.symmetric(
+          //           //                     vertical: 20.0),
+          //           //                 child: Text(
+          //           //                   "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+          //           //                   style: TextStyle(
+          //           //                       fontSize: 18.0,
+          //           //                       color: Colors.black38,
+          //           //                       fontFamily: "Sofia",
+          //           //                       fontWeight: FontWeight.w500),
+          //           //                 ),
+          //           //               ),
+          //           //               SizedBox(
+          //           //                 height: 30.0,
+          //           //               ),
+          //           //               InkWell(
+          //           //                 onTap: () {
+          //           //                   // _launchURL();
+          //           //                 },
+          //           //                 child: Container(
+          //           //                   height: 40.0,
+          //           //                   width: 155.0,
+          //           //                   decoration: BoxDecoration(
+          //           //                       gradient: LinearGradient(colors: [
+          //           //                         Color(0xFF7AB77E),
+          //           //                         Color(0xFFBEEBC6),
+          //           //                       ]),
+          //           //                       borderRadius: BorderRadius.all(
+          //           //                           Radius.circular(20.0))),
+          //           //                   child: Center(
+          //           //                     child: Text(
+          //           //                       "KNOW MORE",
+          //           //                       style: TextStyle(
+          //           //                           color: colors.white,
+          //           //                           fontFamily: "Sofia",
+          //           //                           fontWeight: FontWeight.w500,
+          //           //                           fontSize: 14),
+          //           //                     ),
+          //           //                   ),
+          //           //                 ),
+          //           //               )
+          //           //             ],
+          //           //           ),
+          //           //         ),
+          //           //       ),
+          //           //     ),
+          //           //   ],
+          //           // ),
+          //         ],
+          //       ),
+          //     ))
+          Padding(padding: EdgeInsets.only(bottom: 150.0),),
+          Divider(
+            color: Colors.black, 
+            height: 4,
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.only(top: 150.0),
+              child: Text(
+                "Kami Menyediakan Pelayanan",
+                style: TextStyle(
+                    fontFamily: "Sofia",
+                    fontWeight: FontWeight.w900,
+                    fontSize: 50.0),
+              ),
+            ),
+          ),
+
+          //
+          Stack(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(top: 178.0, left: 250.0),
+                child: Image.asset("assets/image/item1.png"),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 40.0),
+                child: Image.asset(
+                  "assets/image/item2.png",
+                  height: MediaQuery.of(context).size.height - 175,
+                  fit: BoxFit.cover,
                 ),
-              ))
+              ),
+              Padding(
+                padding: EdgeInsets.only(
+                    top: MediaQuery.of(context).size.height - 175, left: 450),
+                child: Image.asset(
+                  "assets/image/item3.png",
+                  //height: MediaQuery.of(context).size.height - 175,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 25, left: 550),
+                child: Image.asset(
+                  "assets/image/item4.png",
+                  height: 120,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    height: 580.0,
+                    width: _width / 2.2,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                            topRight: Radius.circular(20.0),
+                            bottomRight: Radius.circular(20.0)),
+                        image: DecorationImage(
+                            image: AssetImage("assets/image/porto3.png"),
+                            fit: BoxFit.fill)),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 55.0),
+                    child: Container(
+                      width: _width / 2.2,
+                      child: Padding(
+                        padding: const EdgeInsets.only(left: 5.0, right: 35.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            SizedBox(
+                              height: 5.0,
+                            ),
+                            Text(
+                              "Solusi kreatif untuk pemasaran, pembuatan, dan pengelolaan website bagi lembaga, yayasan, DKM, instansi, dan UMKM. Kami hadir untuk membantu membangun kehadiran digital yang kuat dan efektif.",
+                              style: TextStyle(
+                                  fontFamily: "Sofia",
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.w900,
+                                  fontSize: 22.0),
+                            ),
+                            // Padding(
+                            //   padding: const EdgeInsets.symmetric(
+                            //       vertical: 20.0),
+                            //   child: Text(
+                            //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                            //     style: TextStyle(
+                            //         fontSize: 18.0,
+                            //         color: Colors.black38,
+                            //         fontFamily: "Sofia",
+                            //         fontWeight: FontWeight.w500),
+                            //   ),
+                            // ),
+                            SizedBox(
+                              height: 30.0,
+                            ),
+                            InkWell(
+                              onTap: () {
+                                // _launchURL();
+                              },
+                              child: Container(
+                                height: 40.0,
+                                width: 155.0,
+                                decoration: BoxDecoration(
+                                    gradient: LinearGradient(colors: [
+                                      Colors.brown,
+                                      Color(0xFFF5EFE9),
+                                    ]),
+                                    borderRadius: BorderRadius.all(
+                                        Radius.circular(20.0))),
+                                child: Center(
+                                  child: Text(
+                                    "KNOW MORE",
+                                    style: TextStyle(
+                                        color: colors.white,
+                                        fontFamily: "Sofia",
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 14),
+                                  ),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ],
       ),
     );
@@ -731,7 +867,7 @@ class MobileHeaderContent2 extends StatelessWidget {
                   child: Container(
                     width: _width / 1.3,
                     child: Text(
-                      "Here's a show case of our recent projects",
+                      "Kami membutuhkan",
                       style: TextStyle(
                           fontFamily: "Sofia",
                           fontWeight: FontWeight.w900,
@@ -775,31 +911,31 @@ class MobileHeaderContent2 extends StatelessWidget {
                                   height: 5.0,
                                 ),
                                 Text(
-                                  "FlyHigh Booking",
+                                  "buku takmir 50 eks",
                                   style: TextStyle(
                                       fontFamily: "Sofia",
                                       color: Colors.black,
                                       fontWeight: FontWeight.w900,
                                       fontSize: 32.0),
                                 ),
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                      vertical: 20.0),
-                                  child: Text(
-                                    "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                    style: TextStyle(
-                                        fontSize: 18.0,
-                                        color: Colors.black38,
-                                        fontFamily: "Sofia",
-                                        fontWeight: FontWeight.w500),
-                                  ),
-                                ),
+                                // Padding(
+                                //   padding: const EdgeInsets.symmetric(
+                                //       vertical: 20.0),
+                                //   child: Text(
+                                //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                                //     style: TextStyle(
+                                //         fontSize: 18.0,
+                                //         color: Colors.black38,
+                                //         fontFamily: "Sofia",
+                                //         fontWeight: FontWeight.w500),
+                                //   ),
+                                // ),
                                 SizedBox(
                                   height: 30.0,
                                 ),
                                 InkWell(
                                   onTap: () {
-                                    _launchURL();
+                                    // _launchURL();
                                   },
                                   child: Container(
                                     height: 40.0,
@@ -893,31 +1029,31 @@ class MobileHeaderContent2 extends StatelessWidget {
                                 height: 5.0,
                               ),
                               Text(
-                                "Trevatel Hotel",
+                                "Buku manajemen 50 eks",
                                 style: TextStyle(
                                     fontFamily: "Sofia",
                                     color: Colors.black,
                                     fontWeight: FontWeight.w900,
                                     fontSize: 32.0),
                               ),
-                              Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(vertical: 20.0),
-                                child: Text(
-                                  "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                  style: TextStyle(
-                                      fontSize: 18.0,
-                                      color: Colors.black38,
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w500),
-                                ),
-                              ),
+                              // Padding(
+                              //   padding:
+                              //       const EdgeInsets.symmetric(vertical: 20.0),
+                              //   child: Text(
+                              //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                              //     style: TextStyle(
+                              //         fontSize: 18.0,
+                              //         color: Colors.black38,
+                              //         fontFamily: "Sofia",
+                              //         fontWeight: FontWeight.w500),
+                              //   ),
+                              // ),
                               SizedBox(
                                 height: 30.0,
                               ),
                               InkWell(
                                 onTap: () {
-                                  _launchURL();
+                                  // _launchURL();
                                 },
                                 child: Container(
                                   height: 40.0,
@@ -1015,31 +1151,31 @@ class MobileHeaderContent2 extends StatelessWidget {
                                 height: 5.0,
                               ),
                               Text(
-                                "Treva Shop",
+                                "Kalender Mulud 1 hal 50 eks",
                                 style: TextStyle(
                                     fontFamily: "Sofia",
                                     color: Colors.black,
                                     fontWeight: FontWeight.w900,
                                     fontSize: 32.0),
                               ),
-                              Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(vertical: 20.0),
-                                child: Text(
-                                  "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                  style: TextStyle(
-                                      fontSize: 18.0,
-                                      color: Colors.black38,
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w500),
-                                ),
-                              ),
+                              // Padding(
+                              //   padding:
+                              //       const EdgeInsets.symmetric(vertical: 20.0),
+                              //   child: Text(
+                              //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                              //     style: TextStyle(
+                              //         fontSize: 18.0,
+                              //         color: Colors.black38,
+                              //         fontFamily: "Sofia",
+                              //         fontWeight: FontWeight.w500),
+                              //   ),
+                              // ),
                               SizedBox(
                                 height: 30.0,
                               ),
                               InkWell(
                                 onTap: () {
-                                  _launchURL();
+                                  // _launchURL();
                                 },
                                 child: Container(
                                   height: 40.0,
@@ -1131,31 +1267,31 @@ class MobileHeaderContent2 extends StatelessWidget {
                                 height: 5.0,
                               ),
                               Text(
-                                "Podcorn Loxibel",
+                                "Buletin Muslimat Miftahurridho 50 eks",
                                 style: TextStyle(
                                     fontFamily: "Sofia",
                                     color: Colors.black,
                                     fontWeight: FontWeight.w900,
                                     fontSize: 32.0),
                               ),
-                              Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(vertical: 20.0),
-                                child: Text(
-                                  "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                  style: TextStyle(
-                                      fontSize: 18.0,
-                                      color: Colors.black38,
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w500),
-                                ),
-                              ),
+                              // Padding(
+                              //   padding:
+                              //       const EdgeInsets.symmetric(vertical: 20.0),
+                              //   child: Text(
+                              //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                              //     style: TextStyle(
+                              //         fontSize: 18.0,
+                              //         color: Colors.black38,
+                              //         fontFamily: "Sofia",
+                              //         fontWeight: FontWeight.w500),
+                              //   ),
+                              // ),
                               SizedBox(
                                 height: 30.0,
                               ),
                               InkWell(
                                 onTap: () {
-                                  _launchURL();
+                                  // _launchURL();
                                 },
                                 child: Container(
                                   height: 40.0,
@@ -1189,128 +1325,241 @@ class MobileHeaderContent2 extends StatelessWidget {
               ),
             ],
           ),
-          Stack(
+          // Stack(
+          //   children: [
+          //     Padding(
+          //       padding: const EdgeInsets.only(top: 178.0, left: 250.0),
+          //       child: Image.asset("assets/image/item1.png"),
+          //     ),
+          //     Padding(
+          //       padding: const EdgeInsets.only(top: 40.0),
+          //       child: Image.asset(
+          //         "assets/image/item2.png",
+          //         height: MediaQuery.of(context).size.height - 175,
+          //         fit: BoxFit.cover,
+          //       ),
+          //     ),
+          //     Padding(
+          //       padding: EdgeInsets.only(
+          //           top: MediaQuery.of(context).size.height - 175, left: 450),
+          //       child: Image.asset(
+          //         "assets/image/item3.png",
+          //         //height: MediaQuery.of(context).size.height - 175,
+          //         fit: BoxFit.cover,
+          //       ),
+          //     ),
+          //     Padding(
+          //       padding: EdgeInsets.only(top: 25, left: 550),
+          //       child: Image.asset(
+          //         "assets/image/item4.png",
+          //         height: 120,
+          //         fit: BoxFit.cover,
+          //       ),
+          //     ),
+          //     // Column(
+          //     //   mainAxisAlignment: MainAxisAlignment.center,
+          //     //   crossAxisAlignment: CrossAxisAlignment.center,
+          //     //   children: [
+          //     //     SizedBox(
+          //     //       height: 80.0,
+          //     //     ),
+          //     //     Container(
+          //     //       height: 450.0,
+          //     //       width: _width / 1.2,
+          //     //       decoration: BoxDecoration(
+          //     //           borderRadius: BorderRadius.only(
+          //     //               topRight: Radius.circular(20.0),
+          //     //               bottomRight: Radius.circular(20.0)),
+          //     //           image: DecorationImage(
+          //     //               image: AssetImage("assets/image/porto5.png"),
+          //     //               fit: BoxFit.fill)),
+          //     //     ),
+          //     // Padding(
+          //     //   padding: const EdgeInsets.only(left: 0.0),
+          //     //   child: Center(
+          //     //     child: Container(
+          //     //       width: _width / 1.2,
+          //     //       child: Padding(
+          //     //         padding: const EdgeInsets.only(left: 5.0, right: 0.0),
+          //     //         child: Column(
+          //     //           crossAxisAlignment: CrossAxisAlignment.center,
+          //     //           mainAxisAlignment: MainAxisAlignment.center,
+          //     //           children: <Widget>[
+          //     //             SizedBox(
+          //     //               height: 5.0,
+          //     //             ),
+          //     //             Text(
+          //     //               "GreenDot Wokse",
+          //     //               style: TextStyle(
+          //     //                   fontFamily: "Sofia",
+          //     //                   color: Colors.black,
+          //     //                   fontWeight: FontWeight.w900,
+          //     //                   fontSize: 32.0),
+          //     //             ),
+          //     //             Padding(
+          //     //               padding:
+          //     //                   const EdgeInsets.symmetric(vertical: 20.0),
+          //     //               child: Text(
+          //     //                 "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+          //     //                 style: TextStyle(
+          //     //                     fontSize: 18.0,
+          //     //                     color: Colors.black38,
+          //     //                     fontFamily: "Sofia",
+          //     //                     fontWeight: FontWeight.w500),
+          //     //               ),
+          //     //             ),
+          //     //             SizedBox(
+          //     //               height: 30.0,
+          //     //             ),
+          //     //             InkWell(
+          //     //               onTap: () {
+          //     //                 // _launchURL();
+          //     //               },
+          //     //               child: Container(
+          //     //                 height: 40.0,
+          //     //                 width: 155.0,
+          //     //                 decoration: BoxDecoration(
+          //     //                     gradient: LinearGradient(colors: [
+          //     //                       Color(0xFF7AB77E),
+          //     //                       Color(0xFFBEEBC6),
+          //     //                     ]),
+          //     //                     borderRadius: BorderRadius.all(
+          //     //                         Radius.circular(20.0))),
+          //     //                 child: Center(
+          //     //                   child: Text(
+          //     //                     "KNOW MORE",
+          //     //                     style: TextStyle(
+          //     //                         color: colors.white,
+          //     //                         fontFamily: "Sofia",
+          //     //                         fontWeight: FontWeight.w500,
+          //     //                         fontSize: 14),
+          //     //                   ),
+          //     //                 ),
+          //     //               ),
+          //     //             )
+          //     //           ],
+          //     //         ),
+          //     //       ),
+          //     //     ),
+          //     //   ),
+          //     // ),
+          //     //     SizedBox(
+          //     //       height: 200.0,
+          //     //     ),
+          //     //   ],
+          //     // ),
+          //   ],
+          // ),
+          Padding(padding: const EdgeInsets.only(bottom: 100.0),),
+          Divider(
+            color: Colors.black,
+            height: 2,
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.only(top: 100.0),
+              child: Container(
+                width: _width / 1.3,
+                child: Text(
+                  "Kami Menyediakan Pelayanan",
+                  style: TextStyle(
+                      fontFamily: "Sofia",
+                      fontWeight: FontWeight.w900,
+                      fontSize: 40.0),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ),
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Padding(
-                padding: const EdgeInsets.only(top: 178.0, left: 250.0),
-                child: Image.asset("assets/image/item1.png"),
+              SizedBox(
+                height: 150.0,
+              ),
+              Container(
+                height: 450.0,
+                width: _width / 1.2,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.only(
+                        topRight: Radius.circular(20.0),
+                        bottomRight: Radius.circular(20.0)),
+                    image: DecorationImage(
+                        image: AssetImage("assets/image/porto3.png"),
+                        fit: BoxFit.fill)),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 40.0),
-                child: Image.asset(
-                  "assets/image/item2.png",
-                  height: MediaQuery.of(context).size.height - 175,
-                  fit: BoxFit.cover,
-                ),
-              ),
-              Padding(
-                padding: EdgeInsets.only(
-                    top: MediaQuery.of(context).size.height - 175, left: 450),
-                child: Image.asset(
-                  "assets/image/item3.png",
-                  //height: MediaQuery.of(context).size.height - 175,
-                  fit: BoxFit.cover,
-                ),
-              ),
-              Padding(
-                padding: EdgeInsets.only(top: 25, left: 550),
-                child: Image.asset(
-                  "assets/image/item4.png",
-                  height: 120,
-                  fit: BoxFit.cover,
-                ),
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  SizedBox(
-                    height: 80.0,
-                  ),
-                  Container(
-                    height: 450.0,
+                padding: const EdgeInsets.only(left: 0.0, top: 40.0),
+                child: Center(
+                  child: Container(
                     width: _width / 1.2,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.only(
-                            topRight: Radius.circular(20.0),
-                            bottomRight: Radius.circular(20.0)),
-                        image: DecorationImage(
-                            image: AssetImage("assets/image/porto5.png"),
-                            fit: BoxFit.fill)),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 0.0),
-                    child: Center(
-                      child: Container(
-                        width: _width / 1.2,
-                        child: Padding(
-                          padding: const EdgeInsets.only(left: 5.0, right: 0.0),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Text(
-                                "GreenDot Wokse",
-                                style: TextStyle(
-                                    fontFamily: "Sofia",
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w900,
-                                    fontSize: 32.0),
-                              ),
-                              Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(vertical: 20.0),
-                                child: Text(
-                                  "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
-                                  style: TextStyle(
-                                      fontSize: 18.0,
-                                      color: Colors.black38,
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w500),
-                                ),
-                              ),
-                              SizedBox(
-                                height: 30.0,
-                              ),
-                              InkWell(
-                                onTap: () {
-                                  _launchURL();
-                                },
-                                child: Container(
-                                  height: 40.0,
-                                  width: 155.0,
-                                  decoration: BoxDecoration(
-                                      gradient: LinearGradient(colors: [
-                                        Color(0xFF7AB77E),
-                                        Color(0xFFBEEBC6),
-                                      ]),
-                                      borderRadius: BorderRadius.all(
-                                          Radius.circular(20.0))),
-                                  child: Center(
-                                    child: Text(
-                                      "KNOW MORE",
-                                      style: TextStyle(
-                                          color: colors.white,
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w500,
-                                          fontSize: 14),
-                                    ),
-                                  ),
-                                ),
-                              )
-                            ],
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 5.0, right: 0.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          SizedBox(
+                            height: 5.0,
                           ),
-                        ),
+                          Text(
+                            "Solusi kreatif untuk pemasaran, pembuatan, dan pengelolaan website bagi lembaga, yayasan, DKM, instansi, dan UMKM. Kami hadir untuk membantu membangun kehadiran digital yang kuat dan efektif.",
+                            style: TextStyle(
+                                fontFamily: "Sofia",
+                                color: Colors.black,
+                                fontWeight: FontWeight.w900,
+                                fontSize: 32.0),
+                          ),
+                          // Padding(
+                          //   padding:
+                          //       const EdgeInsets.symmetric(vertical: 20.0),
+                          //   child: Text(
+                          //     "We help our clients make realize their most important business goals. We help our clients make realize their most important business goals. business goals. We help our clients make realize their most important business.",
+                          //     style: TextStyle(
+                          //         fontSize: 18.0,
+                          //         color: Colors.black38,
+                          //         fontFamily: "Sofia",
+                          //         fontWeight: FontWeight.w500),
+                          //   ),
+                          // ),
+                          SizedBox(
+                            height: 30.0,
+                          ),
+                          InkWell(
+                            onTap: () {
+                              // _launchURL();
+                            },
+                            child: Container(
+                              height: 40.0,
+                              width: 155.0,
+                              decoration: BoxDecoration(
+                                  gradient: LinearGradient(colors: [
+                                    Colors.brown,
+                                    Color(0xFFF5EFE9),
+                                  ]),
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(20.0))),
+                              child: Center(
+                                child: Text(
+                                  "KNOW MORE",
+                                  style: TextStyle(
+                                      color: colors.white,
+                                      fontFamily: "Sofia",
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 14),
+                                ),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            height: 30.0,
+                          ),
+                        ],
                       ),
                     ),
                   ),
-                  SizedBox(
-                    height: 200.0,
-                  ),
-                ],
+                ),
               ),
             ],
           ),

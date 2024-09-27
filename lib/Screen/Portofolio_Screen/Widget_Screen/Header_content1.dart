@@ -31,7 +31,7 @@ class DesktopHeaderContent1T4 extends StatelessWidget {
           Container(
             height: MediaQuery.of(context).size.height,
             width: _width,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               image: DecorationImage(
                   image: AssetImage("assets/image/headerPortofolio.png"),
                   fit: BoxFit.cover),
@@ -48,8 +48,8 @@ class DesktopHeaderContent1T4 extends StatelessWidget {
                   Center(
                     child: Container(
                       width: 800.0,
-                      child: Text(
-                        "Vision, discovery, creation, development. We bring great ideas to life.",
+                      child: const Text(
+                        "Pelayanan, Pemasaran, Dukungan, Sponsorship. Kami mewujudkan ide-ide hebat menjadi nyata.",
                         style: TextStyle(
                             wordSpacing: 0.0,
                             letterSpacing: 0.0,
@@ -61,17 +61,17 @@ class DesktopHeaderContent1T4 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 25.0,
                   ),
-                  Text(
-                    "Here's a showcase of our recent projects.",
-                    style: TextStyle(
-                        fontFamily: "Sofia",
-                        color: Colors.black45,
-                        fontWeight: FontWeight.w700,
-                        fontSize: 27.0),
-                  ),
+                  // const Text(
+                  //   "Here's a showcase of our recent projects.",
+                  //   style: TextStyle(
+                  //       fontFamily: "Sofia",
+                  //       color: Colors.black45,
+                  //       fontWeight: FontWeight.w700,
+                  //       fontSize: 27.0),
+                  // ),
                 ],
               ),
             ),
@@ -92,7 +92,7 @@ class MobileHeaderContent1T4 extends StatelessWidget {
           Container(
             height: MediaQuery.of(context).size.height,
             width: _width,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               image: DecorationImage(
                   image: AssetImage("assets/image/headerPortofolio.png"),
                   fit: BoxFit.cover),
@@ -109,10 +109,10 @@ class MobileHeaderContent1T4 extends StatelessWidget {
                   Center(
                     child: Container(
                       width: _width / 1.2,
-                      child: Padding(
-                        padding: const EdgeInsets.only(top: 60.0),
+                      child: const Padding(
+                        padding: EdgeInsets.only(top: 60.0),
                         child: Text(
-                          "Vision, discovery, creation, development. We bring great ideas to life.",
+                          "Pelayanan, Pemasaran, Dukungan, Sponsorship. Kami mewujudkan ide-ide hebat menjadi nyata.",
                           style: TextStyle(
                               wordSpacing: 0.0,
                               letterSpacing: 0.0,
@@ -125,21 +125,21 @@ class MobileHeaderContent1T4 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 25.0,
                   ),
-                  Center(
-                    child: Text(
-                      "Here's a showcase of our recent projects.",
-                      style: TextStyle(
-                          fontFamily: "Sofia",
-                          color: Colors.black45,
-                          fontWeight: FontWeight.w700,
-                          fontSize: 22.0),
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
-                  SizedBox(
+                  // const Center(
+                  //   child: Text(
+                  //     "Here's a showcase of our recent projects.",
+                  //     style: TextStyle(
+                  //         fontFamily: "Sofia",
+                  //         color: Colors.black45,
+                  //         fontWeight: FontWeight.w700,
+                  //         fontSize: 22.0),
+                  //     textAlign: TextAlign.center,
+                  //   ),
+                  // ),
+                  const SizedBox(
                     height: 30.0,
                   )
                 ],

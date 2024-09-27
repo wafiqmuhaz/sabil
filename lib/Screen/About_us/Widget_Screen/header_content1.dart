@@ -254,7 +254,7 @@ class DesktopHeaderContent1T2 extends StatelessWidget {
         children: [
           const Center(
             child: Text(
-              'SURAT KEPUTUSAN\nYAYASAN SABILIURRIDHO AR RUHANIADH',
+              'SURAT KEPUTUSAN\nYAYASAN SABILIURRIDHO AR RUHANDIAH',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
@@ -331,7 +331,7 @@ class MobileHeaderContent1T2 extends StatelessWidget {
         children: [
           const Center(
             child: Text(
-              'SURAT KEPUTUSAN\nYAYASAN SABILIURRIDHO AR RUHANIADH',
+              'SURAT KEPUTUSAN\nYAYASAN SABILIURRIDHO AR RUHANDIAH',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),

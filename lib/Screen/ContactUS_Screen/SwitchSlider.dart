@@ -100,8 +100,8 @@ class _SwitcherSideState extends State<SwitcherSide> {
                                 ),
                                 Text(
                                   widget._animation!.value > 0.0
-                                      ? "+62 899 525 8011"
-                                      : "+62 8139 3139 307",
+                                      ? "+62 811 231 9713"
+                                      : "+62 811 231 9713",
                                   style: TextStyle(
                                       fontSize: 18.0,
                                       color: Colors.white,
@@ -124,8 +124,8 @@ class _SwitcherSideState extends State<SwitcherSide> {
                                 ),
                                 Text(
                                   widget._animation!.value > 0.0
-                                      ? "wafiqmuhaz@gmail.com"
-                                      : "wafiqmuhaz@gmail.com",
+                                      ? "rohendiabdullah01@gmail.com"
+                                      : "rohendiabdullah01@gmail.com",
                                   style: TextStyle(
                                       fontSize: 18.0,
                                       color: Colors.white,
@@ -148,8 +148,8 @@ class _SwitcherSideState extends State<SwitcherSide> {
                                 ),
                                 Text(
                                   widget._animation!.value > 0.0
-                                      ? "Soreang, Bandung, Indonesia "
-                                      : "Soreang, Bandung, Indonesia ",
+                                      ? "Ds. Bandasari, Kec. Cangkuang, Indonesia "
+                                      : "Ds. Bandasari, Kec. Cangkuang, Indonesia ",
                                   style: TextStyle(
                                       fontSize: 18.0,
                                       color: Colors.white,

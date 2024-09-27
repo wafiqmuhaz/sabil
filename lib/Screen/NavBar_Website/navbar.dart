@@ -45,183 +45,190 @@ class _DesktopNavbarT1State extends State<DesktopNavbarT1> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-      child: Container(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Row(
-              children: [
-                Image.asset(
-                  "assets/image/logosabil.png",
-                  height: 25.0,
-                ),
-                SizedBox(
-                  width: 10.0,
-                ),
-                Text(
-                  "SABILUR RIDHO AR RUHANDIAH",
-                  style: TextStyle(
-                      fontFamily: "Sofia",
-                      fontWeight: FontWeight.w700,
-                      color: Colors.black87,
-                      fontSize: 18),
-                ),
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                InkWell(
-                  onTap: () {
-                    Navigator.of(context).push(PageRouteBuilder(
-                        pageBuilder: (_, __, ___) => new HomeScreenT1()));
-                  },
-                  child: MouseRegion(
-                    onEnter: (value) {
-                      setState(() {
-                        color = selected;
-                        fontWeight = selectedFW;
-                      });
-                    },
-                    onExit: (value) {
-                      setState(() {
-                        color = notSelected;
-                        fontWeight = notSelectedFW;
-                      });
-                    },
-                    child: Text(
-                      "Home",
-                      style: TextStyle(
-                          fontFamily: "Sofia",
-                          fontWeight: fontWeight,
-                          color: color,
-                          fontSize: 15),
-                    ),
+    return Container(
+      color: Color.fromARGB(255, 236, 236, 236),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+        child: Container(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Row(
+                children: [
+                  Image.asset(
+                    "assets/image/logosabil.png",
+                    height: 25.0,
                   ),
-                ),
-                SizedBox(
-                  width: 45,
-                ),
-                InkWell(
-                  onTap: () {
-                    Navigator.of(context).push(PageRouteBuilder(
-                        pageBuilder: (_, __, ___) => new AboutusScreenT2()));
-                  },
-                  child: MouseRegion(
-                    onEnter: (value) {
-                      setState(() {
-                        color2 = selected2;
-                        fontWeight2 = selectedFW2;
-                      });
-                    },
-                    onExit: (value) {
-                      setState(() {
-                        color2 = notSelected2;
-                        fontWeight2 = notSelectedFW2;
-                      });
-                    },
-                    child: Text(
-                      "Tentang Kami",
-                      style: TextStyle(
-                          fontFamily: "Sofia",
-                          fontWeight: fontWeight2,
-                          color: color2,
-                          fontSize: 15),
-                    ),
+                  SizedBox(
+                    width: 10.0,
                   ),
-                ),
-                SizedBox(
-                  width: 45,
-                ),
-                MouseRegion(
-                  onEnter: (value) {
-                    setState(() {
-                      color3 = selected3;
-                      fontWeight3 = selectedFW3;
-                    });
-                  },
-                  onExit: (value) {
-                    setState(() {
-                      color3 = notSelected3;
-                      fontWeight3 = notSelectedFW3;
-                    });
-                  },
-                  child: InkWell(
+                  Text(
+                    "SABILUR RIDHO AR RUHANDIAH",
+                    style: TextStyle(
+                        overflow: TextOverflow.ellipsis,
+                        fontFamily: "Sofia",
+                        fontWeight: FontWeight.w700,
+                        color: Colors.black87,
+                        fontSize: 18),
+                  ),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  InkWell(
                     onTap: () {
                       Navigator.of(context).push(PageRouteBuilder(
-                          pageBuilder: (_, __, ___) => new ServiceScreen()));
+                          pageBuilder: (_, __, ___) => new HomeScreenT1()));
                     },
-                    child: Text(
-                      "Produk",
-                      style: TextStyle(
-                          fontFamily: "Sofia",
-                          fontWeight: fontWeight3,
-                          color: color3,
-                          fontSize: 15),
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  width: 45,
-                ),
-                MouseRegion(
-                  onEnter: (value) {
-                    setState(() {
-                      color4 = selected4;
-                      fontWeight4 = selectedFW4;
-                    });
-                  },
-                  onExit: (value) {
-                    setState(() {
-                      color4 = notSelected4;
-                      fontWeight4 = notSelectedFW4;
-                    });
-                  },
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.of(context).push(PageRouteBuilder(
-                          pageBuilder: (_, __, ___) => new PortofolioScreen()));
-                    },
-                    child: Text(
-                      "Portfolio",
-                      style: TextStyle(
-                          fontFamily: "Sofia",
-                          fontWeight: fontWeight4,
-                          color: color4,
-                          fontSize: 14),
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  width: 40,
-                ),
-                InkWell(
-                  onTap: () {
-                    Navigator.of(context).push(PageRouteBuilder(
-                        pageBuilder: (_, __, ___) => new ContactUs()));
-                  },
-                  child: Container(
-                    height: 35.0,
-                    width: 115.0,
-                    decoration: BoxDecoration(
-                        border: Border.all(color: colors.mainColor, width: 1.5),
-                        borderRadius: BorderRadius.all(Radius.circular(20.0))),
-                    child: Center(
+                    child: MouseRegion(
+                      onEnter: (value) {
+                        setState(() {
+                          color = selected;
+                          fontWeight = selectedFW;
+                        });
+                      },
+                      onExit: (value) {
+                        setState(() {
+                          color = notSelected;
+                          fontWeight = notSelectedFW;
+                        });
+                      },
                       child: Text(
-                        "Contact us",
+                        "Home",
                         style: TextStyle(
                             fontFamily: "Sofia",
-                            fontWeight: FontWeight.w500,
-                            color: colors.mainColor,
+                            fontWeight: fontWeight,
+                            color: color,
+                            fontSize: 15),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 45,
+                  ),
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(PageRouteBuilder(
+                          pageBuilder: (_, __, ___) => new AboutusScreenT2()));
+                    },
+                    child: MouseRegion(
+                      onEnter: (value) {
+                        setState(() {
+                          color2 = selected2;
+                          fontWeight2 = selectedFW2;
+                        });
+                      },
+                      onExit: (value) {
+                        setState(() {
+                          color2 = notSelected2;
+                          fontWeight2 = notSelectedFW2;
+                        });
+                      },
+                      child: Text(
+                        "Tentang Kami",
+                        style: TextStyle(
+                            fontFamily: "Sofia",
+                            fontWeight: fontWeight2,
+                            color: color2,
+                            fontSize: 15),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 45,
+                  ),
+                  MouseRegion(
+                    onEnter: (value) {
+                      setState(() {
+                        color3 = selected3;
+                        fontWeight3 = selectedFW3;
+                      });
+                    },
+                    onExit: (value) {
+                      setState(() {
+                        color3 = notSelected3;
+                        fontWeight3 = notSelectedFW3;
+                      });
+                    },
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.of(context).push(PageRouteBuilder(
+                            pageBuilder: (_, __, ___) => new ServiceScreen()));
+                      },
+                      child: Text(
+                        "Produk",
+                        style: TextStyle(
+                            fontFamily: "Sofia",
+                            fontWeight: fontWeight3,
+                            color: color3,
+                            fontSize: 15),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 45,
+                  ),
+                  MouseRegion(
+                    onEnter: (value) {
+                      setState(() {
+                        color4 = selected4;
+                        fontWeight4 = selectedFW4;
+                      });
+                    },
+                    onExit: (value) {
+                      setState(() {
+                        color4 = notSelected4;
+                        fontWeight4 = notSelectedFW4;
+                      });
+                    },
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.of(context).push(PageRouteBuilder(
+                            pageBuilder: (_, __, ___) =>
+                                new PortofolioScreen()));
+                      },
+                      child: Text(
+                        "Layanan",
+                        style: TextStyle(
+                            fontFamily: "Sofia",
+                            fontWeight: fontWeight4,
+                            color: color4,
                             fontSize: 14),
                       ),
                     ),
                   ),
-                )
-              ],
-            )
-          ],
+                  SizedBox(
+                    width: 40,
+                  ),
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(PageRouteBuilder(
+                          pageBuilder: (_, __, ___) => new ContactUs()));
+                    },
+                    child: Container(
+                      height: 35.0,
+                      width: 115.0,
+                      decoration: BoxDecoration(
+                          border:
+                              Border.all(color: colors.mainColor, width: 1.5),
+                          borderRadius:
+                              BorderRadius.all(Radius.circular(20.0))),
+                      child: Center(
+                        child: Text(
+                          "Contact us",
+                          style: TextStyle(
+                              fontFamily: "Sofia",
+                              fontWeight: FontWeight.w500,
+                              color: colors.mainColor,
+                              fontSize: 14),
+                        ),
+                      ),
+                    ),
+                  )
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -258,7 +265,7 @@ class _MobileNavbarT1State extends State<MobileNavbarT1> {
           curve: Curves.ease,
           height: (width < 800.0) ? collapsableHeight : 0.0,
           width: double.infinity,
-          color: Colors.white,
+          color: const Color.fromARGB(255, 238, 238, 238),
           child: SingleChildScrollView(
             child: Column(
               children: [
@@ -404,7 +411,7 @@ class _MobileNavbarT1State extends State<MobileNavbarT1> {
                         alignment: Alignment.centerLeft,
                         margin: EdgeInsets.symmetric(horizontal: 14.0),
                         child: Text(
-                          "Portfolio",
+                          "Layanan",
                           style: TextStyle(
                             fontFamily: "Sofia",
                             fontWeight: fontWeight4,

@@ -23,7 +23,7 @@ class DetailSide extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                _animation!.value < 0.0
+                _animation!.value > 0.0
                     ? 'Website Project Information'
                     : 'Mobile Project Information',
                 style: TextStyle(

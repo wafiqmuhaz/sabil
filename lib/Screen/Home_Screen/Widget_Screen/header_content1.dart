@@ -86,7 +86,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                           style: TextStyle(
                               fontFamily: "Sofia",
                               color: Colors.black26,
-                              fontWeight: FontWeight.w500,
+                              fontWeight: FontWeight.w700,
                               fontSize: 19.0),
                         ),
                         SizedBox(

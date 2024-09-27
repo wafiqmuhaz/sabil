@@ -129,8 +129,8 @@ class DesktopHeaderContent4T2 extends StatelessWidget {
                                     "Segi lima melambangkan partisipasi Yayasan sebagai bagian dari masyarakat Indonesia yang berlandaskan nilai-nilai Pancasila dan pengamalan ajaran Islam. Warna kuning keemasan mencerminkan harapan terciptanya masyarakat yang makmur dan damai melalui pembangunan manusia yang berkeadilan. \"Sabilur ridho\" berarti upaya mencapai keridhaan Allah SWT melalui program-program Yayasan yang bermanfaat bagi alam, khususnya di Indonesia, dan \"Ar Ruhandiah\" mencerminkan rasa syukur para pendiri dalam mewujudkan visi-misi tersebut.",
                                     style: TextStyle(
                                         fontFamily: "Sofia",
-                                        fontWeight: FontWeight.w300,
-                                        color: Colors.black38),
+                                        fontWeight: FontWeight.w700,
+                                        color: Colors.black),
                                   ),
                                 )
                               ],
@@ -295,7 +295,7 @@ class DesktopHeaderContent4T2 extends StatelessWidget {
                         SizedBox(
                           height: 90.0,
                         ),
-                        Text("2024 Yayasan Sabilurridho Ar Ruhandiah"),
+                        Text("Yayasan Sabilurridho Ar Ruhandiah"),
                         SizedBox(
                           height: 20.0,
                         )
@@ -600,7 +600,7 @@ class MobileHeaderContent4T2 extends StatelessWidget {
                         SizedBox(
                           height: 40.0,
                         ),
-                        Text("2024 Yayasan Sabilurridho Ar Ruhandiah"),
+                        Text("Yayasan Sabilurridho Ar Ruhandiah"),
                         SizedBox(
                           height: 40.0,
                         ),

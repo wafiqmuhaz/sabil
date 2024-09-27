@@ -104,7 +104,7 @@ class DesktopHeaderContent4 extends StatelessWidget {
                                 Row(
                                   children: [
                                     Image.asset(
-                                      "assets/image/logo.png",
+                                      "assets/image/logosabil.png",
                                       height: 25.0,
                                     ),
                                     SizedBox(
@@ -126,176 +126,176 @@ class DesktopHeaderContent4 extends StatelessWidget {
                                 Container(
                                   width: _width / 5,
                                   child: Text(
-                                    "Indo Caris International is an industry-leading mobile and software development agency.  Since 2016, our team of award-winning mobile strategists, UX/UI designers, and software engineers have delivered many mobile and digital solutions to the world’s leading enterprise and consumer-facing companies.",
+                                    "Segi lima melambangkan partisipasi Yayasan sebagai bagian dari masyarakat Indonesia yang berlandaskan nilai-nilai Pancasila dan pengamalan ajaran Islam. Warna kuning keemasan mencerminkan harapan terciptanya masyarakat yang makmur dan damai melalui pembangunan manusia yang berkeadilan. \"Sabilur ridho\" berarti upaya mencapai keridhaan Allah SWT melalui program-program Yayasan yang bermanfaat bagi alam, khususnya di Indonesia, dan \"Ar Ruhandiah\" mencerminkan rasa syukur para pendiri dalam mewujudkan visi-misi tersebut.",
                                     style: TextStyle(
                                         fontFamily: "Sofia",
-                                        fontWeight: FontWeight.w300,
-                                        color: Colors.black38),
+                                        fontWeight: FontWeight.w700,
+                                        color: Colors.black),
                                   ),
                                 )
                               ],
                             ),
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  "Services",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w800,
-                                      color: Colors.black87,
-                                      fontSize: 18),
-                                ),
-                                SizedBox(
-                                  height: 10.0,
-                                ),
-                                Text(
-                                  "Development",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "Design Sprint",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "UX Design",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "Online Marketing",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "Content",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                )
-                              ],
-                            ),
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  "About Us",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w800,
-                                      color: Colors.black87,
-                                      fontSize: 18),
-                                ),
-                                SizedBox(
-                                  height: 10.0,
-                                ),
-                                Text(
-                                  "About Us",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "Portofolio",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "Team",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "Career",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                              ],
-                            ),
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  "Get in touch",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w800,
-                                      color: Colors.black87,
-                                      fontSize: 18),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "99 Wall Street",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text(
-                                  "New York, NY 1005",
-                                  style: TextStyle(
-                                      fontFamily: "Sofia",
-                                      fontWeight: FontWeight.w300,
-                                      color: Colors.black38),
-                                ),
-                                Row(
-                                  children: [],
-                                )
-                              ],
-                            ),
+                            // Column(
+                            //   mainAxisAlignment: MainAxisAlignment.start,
+                            //   crossAxisAlignment: CrossAxisAlignment.start,
+                            //   children: [
+                            //     Text(
+                            //       "Services",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w800,
+                            //           color: Colors.black87,
+                            //           fontSize: 18),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 10.0,
+                            //     ),
+                            //     Text(
+                            //       "Development",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "Design Sprint",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "UX Design",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "Online Marketing",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "Content",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     )
+                            //   ],
+                            // ),
+                            // Column(
+                            //   mainAxisAlignment: MainAxisAlignment.start,
+                            //   crossAxisAlignment: CrossAxisAlignment.start,
+                            //   children: [
+                            //     Text(
+                            //       "About Us",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w800,
+                            //           color: Colors.black87,
+                            //           fontSize: 18),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 10.0,
+                            //     ),
+                            //     Text(
+                            //       "About Us",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "Portofolio",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "Team",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "Career",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //   ],
+                            // ),
+                            // Column(
+                            //   mainAxisAlignment: MainAxisAlignment.start,
+                            //   crossAxisAlignment: CrossAxisAlignment.start,
+                            //   children: [
+                            //     Text(
+                            //       "Get in touch",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w800,
+                            //           color: Colors.black87,
+                            //           fontSize: 18),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "99 Wall Street",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     SizedBox(
+                            //       height: 8.0,
+                            //     ),
+                            //     Text(
+                            //       "New York, NY 1005",
+                            //       style: TextStyle(
+                            //           fontFamily: "Sofia",
+                            //           fontWeight: FontWeight.w300,
+                            //           color: Colors.black38),
+                            //     ),
+                            //     Row(
+                            //       children: [],
+                            //     )
+                            //   ],
+                            // ),
                           ],
                         ),
                         SizedBox(
                           height: 90.0,
                         ),
-                        Text("2024 Yayasan Sabilurridho Ar Ruhandiah"),
+                        Text("Yayasan Sabilurridho Ar Ruhandiah"),
                         SizedBox(
                           height: 20.0,
                         )
@@ -394,7 +394,7 @@ class MobileHeaderContent4 extends StatelessWidget {
                                     Row(
                                       children: [
                                         Image.asset(
-                                          "assets/image/logo.png",
+                                          "assets/image/logosabil.png",
                                           height: 25.0,
                                         ),
                                         SizedBox(
@@ -416,191 +416,191 @@ class MobileHeaderContent4 extends StatelessWidget {
                                     Container(
                                       width: _width / 2,
                                       child: Text(
-                                        "Indo Caris International is an industry-leading mobile and software development agency. Since 2016, our team of award-winning mobile strategists, UX/UI designers, and software engineers.",
+                                        "Segi lima melambangkan partisipasi Yayasan sebagai bagian dari masyarakat Indonesia yang berlandaskan nilai-nilai Pancasila dan pengamalan ajaran Islam. Warna kuning keemasan mencerminkan harapan terciptanya masyarakat yang makmur dan damai melalui pembangunan manusia yang berkeadilan. \"Sabilur ridho\" berarti upaya mencapai keridhaan Allah SWT melalui program-program Yayasan yang bermanfaat bagi alam, khususnya di Indonesia, dan \"Ar Ruhandiah\" mencerminkan rasa syukur para pendiri dalam mewujudkan visi-misi tersebut.",
                                         style: TextStyle(
                                             fontFamily: "Sofia",
-                                            fontWeight: FontWeight.w300,
-                                            color: Colors.black38),
+                                            fontWeight: FontWeight.w700,
+                                            color: Colors.black),
                                       ),
                                     )
                                   ],
                                 ),
-                                Column(
-                                  mainAxisAlignment: MainAxisAlignment.start,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      "Services",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w800,
-                                          color: Colors.black87,
-                                          fontSize: 18),
-                                    ),
-                                    SizedBox(
-                                      height: 10.0,
-                                    ),
-                                    Text(
-                                      "Development",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w300,
-                                          color: Colors.black38),
-                                    ),
-                                    SizedBox(
-                                      height: 8.0,
-                                    ),
-                                    Text(
-                                      "Design Sprint",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w300,
-                                          color: Colors.black38),
-                                    ),
-                                    SizedBox(
-                                      height: 8.0,
-                                    ),
-                                    Text(
-                                      "UX Design",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w300,
-                                          color: Colors.black38),
-                                    ),
-                                    SizedBox(
-                                      height: 8.0,
-                                    ),
-                                    Text(
-                                      "Online Marketing",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w300,
-                                          color: Colors.black38),
-                                    ),
-                                    SizedBox(
-                                      height: 8.0,
-                                    ),
-                                    Text(
-                                      "Content",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w300,
-                                          color: Colors.black38),
-                                    )
-                                  ],
-                                ),
+                                // Column(
+                                //   mainAxisAlignment: MainAxisAlignment.start,
+                                //   crossAxisAlignment: CrossAxisAlignment.start,
+                                //   children: [
+                                //     Text(
+                                //       "Services",
+                                //       style: TextStyle(
+                                //           fontFamily: "Sofia",
+                                //           fontWeight: FontWeight.w800,
+                                //           color: Colors.black87,
+                                //           fontSize: 18),
+                                //     ),
+                                //     SizedBox(
+                                //       height: 10.0,
+                                //     ),
+                                //     Text(
+                                //       "Development",
+                                //       style: TextStyle(
+                                //           fontFamily: "Sofia",
+                                //           fontWeight: FontWeight.w300,
+                                //           color: Colors.black38),
+                                //     ),
+                                //     SizedBox(
+                                //       height: 8.0,
+                                //     ),
+                                //     Text(
+                                //       "Design Sprint",
+                                //       style: TextStyle(
+                                //           fontFamily: "Sofia",
+                                //           fontWeight: FontWeight.w300,
+                                //           color: Colors.black38),
+                                //     ),
+                                //     SizedBox(
+                                //       height: 8.0,
+                                //     ),
+                                //     Text(
+                                //       "UX Design",
+                                //       style: TextStyle(
+                                //           fontFamily: "Sofia",
+                                //           fontWeight: FontWeight.w300,
+                                //           color: Colors.black38),
+                                //     ),
+                                //     SizedBox(
+                                //       height: 8.0,
+                                //     ),
+                                //     Text(
+                                //       "Online Marketing",
+                                //       style: TextStyle(
+                                //           fontFamily: "Sofia",
+                                //           fontWeight: FontWeight.w300,
+                                //           color: Colors.black38),
+                                //     ),
+                                //     SizedBox(
+                                //       height: 8.0,
+                                //     ),
+                                //     Text(
+                                //       "Content",
+                                //       style: TextStyle(
+                                //           fontFamily: "Sofia",
+                                //           fontWeight: FontWeight.w300,
+                                //           color: Colors.black38),
+                                //     )
+                                //   ],
+                                // ),
                               ],
                             ),
-                            SizedBox(
-                              height: 25.0,
-                            ),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Container(
-                                  width: _width / 2,
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        "About Us",
-                                        style: TextStyle(
-                                            fontFamily: "Sofia",
-                                            fontWeight: FontWeight.w800,
-                                            color: Colors.black87,
-                                            fontSize: 18),
-                                      ),
-                                      SizedBox(
-                                        height: 10.0,
-                                      ),
-                                      Text(
-                                        "About Us",
-                                        style: TextStyle(
-                                            fontFamily: "Sofia",
-                                            fontWeight: FontWeight.w300,
-                                            color: Colors.black38),
-                                      ),
-                                      SizedBox(
-                                        height: 8.0,
-                                      ),
-                                      Text(
-                                        "Portofolio",
-                                        style: TextStyle(
-                                            fontFamily: "Sofia",
-                                            fontWeight: FontWeight.w300,
-                                            color: Colors.black38),
-                                      ),
-                                      SizedBox(
-                                        height: 8.0,
-                                      ),
-                                      Text(
-                                        "Team",
-                                        style: TextStyle(
-                                            fontFamily: "Sofia",
-                                            fontWeight: FontWeight.w300,
-                                            color: Colors.black38),
-                                      ),
-                                      SizedBox(
-                                        height: 8.0,
-                                      ),
-                                      Text(
-                                        "Career",
-                                        style: TextStyle(
-                                            fontFamily: "Sofia",
-                                            fontWeight: FontWeight.w300,
-                                            color: Colors.black38),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Column(
-                                  mainAxisAlignment: MainAxisAlignment.start,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      "Get in touch",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w800,
-                                          color: Colors.black87,
-                                          fontSize: 18),
-                                    ),
-                                    SizedBox(
-                                      height: 8.0,
-                                    ),
-                                    Text(
-                                      "99 Wall Street",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w300,
-                                          color: Colors.black38),
-                                    ),
-                                    SizedBox(
-                                      height: 8.0,
-                                    ),
-                                    Text(
-                                      "New York, NY 1005",
-                                      style: TextStyle(
-                                          fontFamily: "Sofia",
-                                          fontWeight: FontWeight.w300,
-                                          color: Colors.black38),
-                                    ),
-                                    Row(
-                                      children: [],
-                                    )
-                                  ],
-                                ),
-                              ],
-                            ),
+                            // SizedBox(
+                            //   height: 25.0,
+                            // ),
+                            // Row(
+                            //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            //   crossAxisAlignment: CrossAxisAlignment.start,
+                            //   children: [
+                            //     Container(
+                            //       width: _width / 2,
+                            //       child: Column(
+                            //         mainAxisAlignment: MainAxisAlignment.start,
+                            //         crossAxisAlignment:
+                            //             CrossAxisAlignment.start,
+                            //         children: [
+                            //           Text(
+                            //             "About Us",
+                            //             style: TextStyle(
+                            //                 fontFamily: "Sofia",
+                            //                 fontWeight: FontWeight.w800,
+                            //                 color: Colors.black87,
+                            //                 fontSize: 18),
+                            //           ),
+                            //           SizedBox(
+                            //             height: 10.0,
+                            //           ),
+                            //           Text(
+                            //             "About Us",
+                            //             style: TextStyle(
+                            //                 fontFamily: "Sofia",
+                            //                 fontWeight: FontWeight.w300,
+                            //                 color: Colors.black38),
+                            //           ),
+                            //           SizedBox(
+                            //             height: 8.0,
+                            //           ),
+                            //           Text(
+                            //             "Portofolio",
+                            //             style: TextStyle(
+                            //                 fontFamily: "Sofia",
+                            //                 fontWeight: FontWeight.w300,
+                            //                 color: Colors.black38),
+                            //           ),
+                            //           SizedBox(
+                            //             height: 8.0,
+                            //           ),
+                            //           Text(
+                            //             "Team",
+                            //             style: TextStyle(
+                            //                 fontFamily: "Sofia",
+                            //                 fontWeight: FontWeight.w300,
+                            //                 color: Colors.black38),
+                            //           ),
+                            //           SizedBox(
+                            //             height: 8.0,
+                            //           ),
+                            //           Text(
+                            //             "Career",
+                            //             style: TextStyle(
+                            //                 fontFamily: "Sofia",
+                            //                 fontWeight: FontWeight.w300,
+                            //                 color: Colors.black38),
+                            //           ),
+                            //         ],
+                            //       ),
+                            //     ),
+                            //     Column(
+                            //       mainAxisAlignment: MainAxisAlignment.start,
+                            //       crossAxisAlignment: CrossAxisAlignment.start,
+                            //       children: [
+                            //         Text(
+                            //           "Get in touch",
+                            //           style: TextStyle(
+                            //               fontFamily: "Sofia",
+                            //               fontWeight: FontWeight.w800,
+                            //               color: Colors.black87,
+                            //               fontSize: 18),
+                            //         ),
+                            //         SizedBox(
+                            //           height: 8.0,
+                            //         ),
+                            //         Text(
+                            //           "99 Wall Street",
+                            //           style: TextStyle(
+                            //               fontFamily: "Sofia",
+                            //               fontWeight: FontWeight.w300,
+                            //               color: Colors.black38),
+                            //         ),
+                            //         SizedBox(
+                            //           height: 8.0,
+                            //         ),
+                            //         Text(
+                            //           "New York, NY 1005",
+                            //           style: TextStyle(
+                            //               fontFamily: "Sofia",
+                            //               fontWeight: FontWeight.w300,
+                            //               color: Colors.black38),
+                            //         ),
+                            //         Row(
+                            //           children: [],
+                            //         )
+                            //       ],
+                            //     ),
+                            //   ],
+                            // ),
                           ],
                         ),
                         SizedBox(
                           height: 40.0,
                         ),
-                        Text("2024 Yayasan Sabilurridho Ar Ruhandiah"),
+                        Text("Yayasan Sabilurridho Ar Ruhandiah"),
                         SizedBox(
                           height: 40.0,
                         ),
