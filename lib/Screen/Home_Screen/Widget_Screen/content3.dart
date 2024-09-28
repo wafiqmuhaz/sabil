@@ -181,7 +181,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 25, left: 550),
                 child: Image.asset(
-                  "assets/image/sosialisasidakwah.jpg",
+                  "assets/image/item4.png",
                   height: 120,
                   fit: BoxFit.cover,
                 ),
@@ -941,7 +941,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                           )
                         ],
                         image: DecorationImage(
-                            image: AssetImage("assets/image/sosialisasidakwah.jpg"),
+                            image: AssetImage("assets/image/develop.jpeg"),
                             fit: BoxFit.cover)),
                   ),
                   Padding(
