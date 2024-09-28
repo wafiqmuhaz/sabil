@@ -174,7 +174,7 @@ class DesktopContent6 extends StatelessWidget {
                             height: 40.0,
                             width: 115.0,
                             decoration: BoxDecoration(
-                                gradient: colors.primaryGradient,
+                                gradient: colors.primaryGoldGradient,
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(20.0))),
                             child: Center(
@@ -339,7 +339,7 @@ class MobileContent6 extends StatelessWidget {
                             height: 40.0,
                             width: 115.0,
                             decoration: BoxDecoration(
-                                gradient: colors.primaryGradient,
+                                gradient: colors.primaryGoldGradient,
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(20.0))),
                             child: Center(

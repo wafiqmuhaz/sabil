@@ -182,7 +182,7 @@ class _SwitcherSideState extends State<SwitcherSide> {
                     height: 40.0,
                     width: 205.0,
                     decoration: BoxDecoration(
-                        gradient: colors.primaryGradient,
+                        gradient: colors.primaryGoldGradient,
                         borderRadius: BorderRadius.all(Radius.circular(20.0))),
                     child: Center(
                       child: Stack(

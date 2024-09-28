@@ -254,6 +254,7 @@ class DetailSide extends StatelessWidget {
                             height: 50.0,
                             width: 200.0,
                             decoration: BoxDecoration(
+                              gradient: colors.primaryGoldGradient,
                               borderRadius: BorderRadius.circular(100.0),
                             ),
                             child: Center(

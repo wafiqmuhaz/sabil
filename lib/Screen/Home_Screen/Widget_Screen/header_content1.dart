@@ -122,7 +122,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                         //     height: 40.0,
                         //     width: 155.0,
                         //     decoration: BoxDecoration(
-                        //         gradient: colors.primaryGradient,
+                        //         gradient: colors.primaryGoldGradient,
                         //         borderRadius:
                         //             BorderRadius.all(Radius.circular(20.0))),
                         //     child: Center(
@@ -261,7 +261,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                             //     height: 40.0,
                             //     width: 155.0,
                             //     decoration: BoxDecoration(
-                            //         gradient: colors.primaryGradient,
+                            //         gradient: colors.primaryGoldGradient,
                             //         borderRadius: BorderRadius.all(
                             //             Radius.circular(20.0))),
                             //     child: Center(

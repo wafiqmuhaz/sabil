@@ -21,4 +21,11 @@ class colors {
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
+
+  static const primaryGoldGradient = const LinearGradient(
+    colors: const [Color.fromARGB(197, 255, 162, 0), Color.fromARGB(216, 255, 234, 0)],
+    //  stops: const [0.0, 1.0],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
 }

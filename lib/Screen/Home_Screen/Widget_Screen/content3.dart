@@ -135,7 +135,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -234,7 +234,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -269,7 +269,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                           )
                         ],
                         image: DecorationImage(
-                            image: AssetImage("assets/image/develop.jpeg"),
+                            image: AssetImage("assets/image/sosialisasidakwah.jpg"),
                             fit: BoxFit.cover)),
                   ),
                 ],
@@ -326,7 +326,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                           )
                         ],
                         image: DecorationImage(
-                            image: AssetImage("assets/image/design.jpeg"),
+                            image: AssetImage("assets/image/fasilitaslembaga.jpeg"),
                             fit: BoxFit.cover)),
                   ),
                   Padding(
@@ -374,7 +374,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -473,7 +473,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -508,7 +508,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                           )
                         ],
                         image: DecorationImage(
-                            image: AssetImage("assets/image/develop.jpeg"),
+                            image: AssetImage("assets/image/marketingproduk.jpeg"),
                             fit: BoxFit.cover)),
                   ),
                 ],
@@ -613,7 +613,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -712,7 +712,7 @@ class DesktopHeaderContent1 extends StatelessWidget {
           //                       height: 40.0,
           //                       width: 155.0,
           //                       decoration: const BoxDecoration(
-          //                           gradient: colors.primaryGradient,
+          //                           gradient: colors.primaryGoldGradient,
           //                           borderRadius: BorderRadius.all(
           //                               Radius.circular(20.0))),
           //                       child: const Center(
@@ -863,7 +863,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -941,7 +941,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                           )
                         ],
                         image: DecorationImage(
-                            image: AssetImage("assets/image/develop.jpeg"),
+                            image: AssetImage("assets/image/sosialisasidakwah.jpg"),
                             fit: BoxFit.cover)),
                   ),
                   Padding(
@@ -988,7 +988,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -1065,7 +1065,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                           )
                         ],
                         image: DecorationImage(
-                            image: AssetImage("assets/image/design.jpeg"),
+                            image: AssetImage("assets/image/fasilitaslembaga.jpeg"),
                             fit: BoxFit.cover)),
                   ),
                   Padding(
@@ -1112,7 +1112,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -1190,7 +1190,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                           )
                         ],
                         image: DecorationImage(
-                            image: AssetImage("assets/image/develop.jpeg"),
+                            image: AssetImage("assets/image/marketingproduk.jpeg"),
                             fit: BoxFit.cover)),
                   ),
                   Padding(
@@ -1237,7 +1237,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -1361,7 +1361,7 @@ class MobileHeaderContent1 extends StatelessWidget {
                                 height: 40.0,
                                 width: 155.0,
                                 decoration: const BoxDecoration(
-                                    gradient: colors.primaryGradient,
+                                    gradient: colors.primaryGoldGradient,
                                     borderRadius: BorderRadius.all(
                                         Radius.circular(20.0))),
                                 child: const Center(
@@ -1486,7 +1486,7 @@ class MobileHeaderContent1 extends StatelessWidget {
           //                       height: 40.0,
           //                       width: 155.0,
           //                       decoration: const BoxDecoration(
-          //                           gradient: colors.primaryGradient,
+          //                           gradient: colors.primaryGoldGradient,
           //                           borderRadius: BorderRadius.all(
           //                               Radius.circular(20.0))),
           //                       child: const Center(
